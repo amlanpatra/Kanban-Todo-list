@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <div className="hidden md:w-[180px] md:h-screen md:border-r-2 mr-2 md:border-slate-300">
+    <div className="hidden md:inline-block md:w-[180px] md:h-screen md:border-r-2 mr-2 md:border-slate-300">
       <div className="mainPart pt-2">
         <ul>
           <li>
