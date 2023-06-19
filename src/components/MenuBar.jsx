@@ -1,6 +1,6 @@
 function MenuBar({ projectName, userName, address }) {
   return (
-    <div className="menu-container border-b-2 pt-3 pb-2 border-slate-300 w-screen flex">
+    <div className="menu-container hidden md:border-b-2 md:pt-3 md:pb-2 md:border-slate-300 md:w-screen md:inline-flex">
       <div className="projectDetailsContainer flex space-x-2 items-center min-w-[300px]">
         <span className="projectLogo">
           <img

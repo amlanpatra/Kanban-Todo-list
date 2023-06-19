@@ -69,7 +69,7 @@ function Kanban({ name }) {
   const onHandler = () => console.log("clicked");
   const [columns, setColumns] = useState(columnsFromBackend);
   return (
-    <div className="fullKanban overflow-hidden w-screen ">
+    <div className="fullKanban w-screen ">
       {/* kanban top */}
       <div className="kanban-header m-2 mb-4 pl-4">
         <div className="row1 flex justify-between">
@@ -175,7 +175,7 @@ function Kanban({ name }) {
             </span>
             <div className="invite font-sm flex h-[1.75rem] mr-4">Invite</div>
 
-            <div className="contributors flex -space-x-2 overflow-hidden m-1 p-1">
+            <div className="contributors flex -space-x-2 m-1 p-1">
               <img
                 className="inline-block h-6 w-6 rounded-full ring-2 ring-white"
                 src={avatarSource}
