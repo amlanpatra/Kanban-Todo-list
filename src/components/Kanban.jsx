@@ -424,7 +424,7 @@ function Kanban({ name }) {
                 key={columnId}
               >
                 {/* Column names */}
-                <h2 className="m-2 items-center min-w-[250px] mr-[30px] font-extrabold pr-3">
+                <h2 className="m-2 items-center min-w-[250px] ml-4  mr-[30px] font-extrabold pr-3">
                   {column.name}
                 </h2>
                 <hr className="border-2 h-[10px] ml-4 mr-4" />

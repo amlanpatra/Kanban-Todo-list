@@ -16,7 +16,7 @@ function Home() {
 
       <div className="flex">
         <NavBar />
-        <Kanban />
+        <Kanban name={"Mobile App"} />
       </div>
     </div>
   );

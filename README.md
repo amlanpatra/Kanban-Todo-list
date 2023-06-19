@@ -2,7 +2,7 @@
 
 This is a drag and drop enabled web based to-do list made using ReactJs and tailwind css
 
-## Hosted Url :
+## See in action : [Link](https://radiant-crumble-ca2b30.netlify.app/)
 
 ## Live Demo :
 
